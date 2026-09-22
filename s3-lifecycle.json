@@ -1,0 +1,12 @@
+{
+  "Rules": [
+    {
+      "ID": "ClipForgeTemp12Hours",
+      "Status": "Enabled",
+      "Filter": {},
+      "Expiration": {
+        "Days": 1
+      }
+    }
+  ]
+}

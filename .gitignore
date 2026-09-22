@@ -1,0 +1,51 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OAuth credentials
+client_secret.json
+credentials.json
+*token*.json
+
+# Local database
+data/*.sqlite3
+data/*.db
+
+# ClipForge local data
+data/downloads/
+data/inbox/
+data/processing/
+data/output/
+data/failed/
+
+# Generated media
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.avi
+*.mp3
+*.wav
+*.m4a
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local backups
+*.backup
+*.bak
+
+data/
+client_secret.json
+data/youtube_token.json
